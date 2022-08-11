@@ -1,7 +1,7 @@
 int programm, num;
 Boolean begin = true;
 
-while (begin)
+while
 {
    
     Console.WriteLine("Введите число для соответствующей задачи или иное для выхода:");
@@ -11,7 +11,7 @@ while (begin)
     Console.WriteLine("4. На вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.");
     programm = Convert.ToInt32(Console.ReadLine());
     
-    switch (programm)
+    switch
     {
         case 1:
             // Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
@@ -91,7 +91,7 @@ while (begin)
                 i++;
             }
 
-            if (not)
+            if 
             {
                 Console.WriteLine("Нет таких чисел чисел!");
             }
